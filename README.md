@@ -1,2 +1,2 @@
 # HackPack
-Collection of algorithms and data structures competitive programming
+Collection of algorithms and data structures for competitive programming
