@@ -3,7 +3,7 @@ def get_primes(n):
 	"""uses Sieve of Eratosthenes to generate primes up to the limit n
 	
 	Args:
-		n: generation limit
+		n (int): generation limit
 	"""
 	out = list()
 	sieve = [True] * (n+1)
