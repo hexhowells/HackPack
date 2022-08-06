@@ -1,5 +1,5 @@
 
-def get_neighbours(grid, point, diag=False):
+def get_neighbours(grid: list, point: tuple, diag=False: bool) -> list:
 	"""Gets all neighbours around a given point on a 2D grid
 
 	Args:
@@ -22,7 +22,7 @@ def get_neighbours(grid, point, diag=False):
 	return n
 
 
-def all_points(grid):
+def all_points(grid: list) -> tuple:
 	"""Generator function that iterates over every point in a grid
 
 	Args:
@@ -33,7 +33,7 @@ def all_points(grid):
 			yield (r, c)
 
 
-def create_grid(x):
+def create_grid(x: list) -> list:
 	"""Creates a 2D grid given a 2D list of string values
 
 	Args:

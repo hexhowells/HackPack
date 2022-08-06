@@ -1,5 +1,5 @@
 
-def get_primes(n):
+def get_primes(n: int) -> list:
 	"""uses Sieve of Eratosthenes to generate primes up to the limit n
 	
 	Args:

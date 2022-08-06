@@ -1,4 +1,4 @@
-def triangle(n):
+def triangle(n: int) -> int:
 	"""Calculates nth term of a sequence of triangular numbers
 
 	Args:
